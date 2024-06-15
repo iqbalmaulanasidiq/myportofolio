@@ -130,6 +130,23 @@
   .hover\:grayscale:hover {
       filter: none;
   }
+  .timeline-icon {
+    width: 12px;
+    height: 12px;
+    background-color: #00FF00;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+ /* Additional styles can be added here if needed */
+ .social-icon {
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+}
 
 
   
